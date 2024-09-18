@@ -11,3 +11,91 @@
         font-style: normal;
     }
 }
+
+.btn-primary {
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 1.25rem;
+    background: orange;
+    padding: 15px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    border: 0;
+
+
+}
+
+header {
+    background: wheat;
+    padding: 50px 240px;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+}
+
+.banner-description {
+    color: black;
+}
+
+.banner img {
+    margin: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width>576) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:576px) aand (max-width:960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
